@@ -1,0 +1,34 @@
+name,system,rom_path
+# Example CSV for muOS ROM organizer
+# The rom_path column is optional and can contain:
+# - A full URL to download the ROM from
+# - A local file path (absolute or with ~)
+# - Empty (script will search in ROM directories)
+
+# Games that will be found automatically in ROM directories
+Super Mario 64,Nintendo 64,
+Mario Kart 64,Nintendo 64,
+Tetris,Game Boy,
+Super Mario World,SNES,
+Sonic the Hedgehog,Genesis,
+
+# Games with specific local paths
+River City Ransom,NES,~/Downloads/River_City_Ransom_USA.nes
+Earthbound,SNES,/mnt/storage/roms/Earthbound (USA).sfc
+
+# Games with download URLs (examples - replace with working URLs)
+Castlevania SOTN,PlayStation,https://example.com/Castlevania_SOTN.chd
+Final Fantasy VII,PlayStation,https://archive.org/download/psx_redump/Final_Fantasy_VII_USA_Disc1.chd
+
+# Multi-version games (script will try to find any version)
+Pokemon Blue/Red,Game Boy,
+Street Fighter II,SNES,
+
+# Games for specific systems using muOS folder names
+Dr. Mario,FC,
+Mega Man 2,FC,
+Chrono Trigger,SFC,
+Streets of Rage 2,MD,
+Shenmue,DC,
+Metal Slug,ARCADE,
+Samurai Shodown,NEOGEO,

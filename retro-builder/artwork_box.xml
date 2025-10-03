@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Skyscraper artwork configuration for muOS Box Art on RG40XXV -->
+<artwork>
+    <output type="screenshot" width="320" height="240">
+        <layer resource="cover" align="center" valign="middle">
+        </layer>
+    </output>
+</artwork>
